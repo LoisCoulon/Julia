@@ -78,6 +78,9 @@ html body {
   margin: 2px;
   color: #9C4240;
 }
+.card__contact p .fas {
+  margin-right: 2px;
+}
 
 @media screen and (max-width: 768px) {
   .card {
