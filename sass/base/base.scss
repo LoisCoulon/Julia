@@ -1,0 +1,22 @@
+// contient les fichiers qui définissent les fondations de votre site, 
+// par exemple la police de caractères et les normes que vous voulez appliquer sur tout votre site, telles que le box-sizing
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+
+    body{
+        height: 100%;
+        background-image: url("../images/fruits.jpg");
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

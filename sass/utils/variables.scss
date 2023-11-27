@@ -1,0 +1,14 @@
+// dans utils, vous rangez vos variables, fonctions, mixins et les  %placeholders pour les extensions (si vous en utilisez)
+
+$primary-color: #753A1F;
+$secondary-color: #F2EDDB;
+
+@mixin margin {
+    margin: 10px;
+}
+
+@mixin shadow {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.87);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.87);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.87);
+}
